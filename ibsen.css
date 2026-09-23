@@ -38,3 +38,29 @@
     font-style: italic;
     color: darkslategray;
 }
+
+.cast-table {
+    border-collapse: collapse;
+    width: 60%;
+    margin: 20px;
+}
+
+.cast-table th,
+.cast-table td {
+    border: 2px solid black;
+    padding: 10px;
+    text-align: center;
+}
+
+.cast-table th {
+    background-color: lightblue;
+    color: black;
+}
+
+.cast-table tr:nth-child(even) {
+    background-color: lightgray;
+}
+
+.cast-table tr:nth-child(odd) {
+    background-color: white;
+}
